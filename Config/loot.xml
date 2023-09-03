@@ -1,0 +1,16 @@
+<config>
+<append xpath="/lootcontainers">
+	<lootcontainer name="cntBarrelPlasticSingle00" count="1" size="1,1" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualBaseTemplate" destroy_on_close="false">	
+		<item  name="drinkJarInfectedWaterRH" count="1,4" prob="0.5"/>
+		<item  name="drinkJarRiverWater" count="1,4" prob="0.4"/>
+		<item  name="drinkJarBoiledWater" count="0,4" prob="0.1"/>
+	</lootcontainer>
+
+	<lootcontainer name="cntBarrelPlasticQuad" count="1" size="1,4" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualBaseTemplate" destroy_on_close="false">	
+		<item  name="drinkJarInfectedWaterRH" count="1,4" prob="0.5"/>
+		<item  name="drinkJarInfectedWaterRH" count="1,4" prob="0.5"/>
+		<item  name="drinkJarRiverWater" count="1,4" prob="0.4"/>
+		<item  name="drinkJarBoiledWater" count="0,4" prob="0.1"/>
+	</lootcontainer>
+</append>
+</config>
